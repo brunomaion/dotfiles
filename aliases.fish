@@ -1,0 +1,16 @@
+#CAT
+alias -s tokengit="cat ~/Desktop/DirBruno/tokengit.txt"
+
+#DIR
+alias -s cls="clear"
+alias -s c="clear"
+alias -s ..="cd .."
+alias -s ddesk="cd ~/Desktop"
+alias -s dbruno="cd ~/Desktop/DirBruno"
+alias -s ddot="cd ~/Desktop/DirBruno/dotfiles"
+
+#LINKS
+alias -s fgpt="firefox https://chatgpt.com/"
+alias -s fgoogle="firefox https://google.com/"
+alias -s fyt="firefox https://youtube.com/"
+alias -s fx="firefox https://x.com/"
