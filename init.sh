@@ -5,9 +5,11 @@ PACKAGES=(
   git
   curl
   vim
+  neovim
   htop
   fish
   libreoffice
+  gnome-tweaks -y
 )
 
 echo "Atualizando lista de pacotes..."

@@ -14,3 +14,6 @@ alias -s fgpt="firefox https://chatgpt.com/"
 alias -s fgoogle="firefox https://google.com/"
 alias -s fyt="firefox https://youtube.com/"
 alias -s fx="firefox https://x.com/"
+
+#EXES
+alias -s posh="bash -c  "$(wget -qO- https://git.io/vQgMr)""
