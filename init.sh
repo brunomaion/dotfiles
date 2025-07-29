@@ -23,8 +23,8 @@ done
 echo "Todos os pacotes foram instalados."
 
 SNAP_PACKAGES=(
-  code --classic
-  spotify
+  "code --classic"
+  "spotify"
 )
 
 echo "📦 Instalando pacotes Snap..."
@@ -38,7 +38,11 @@ done
 echo "Iniciando configuração do Fish..."
 
 ## Mudando shell pro Fish
-chsh -s fish
+
+chsh -s /usr/bin/fish
 
 # Carrega aliases.fish no shell Fish
 fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
+
+cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/
+

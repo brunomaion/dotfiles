@@ -5,7 +5,7 @@ alias -s tokengit="cat ~/Desktop/DirBruno/tokengit.txt"
 alias -s cls="clear"
 alias -s c="clear"
 alias -s ..="cd .."
-alias -s ddesk="cd ~/Desktop"
+alias -s desk="cd ~/Desktop"
 alias -s dbruno="cd ~/Desktop/DirBruno"
 alias -s ddot="cd ~/Desktop/DirBruno/dotfiles"
 
