@@ -44,5 +44,6 @@ chsh -s /usr/bin/fish
 # Carrega aliases.fish no shell Fish
 fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
 
+#Backup
 cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/
-
+dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
