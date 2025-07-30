@@ -42,14 +42,13 @@ chsh -s /usr/bin/fish
 fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
 
 
-#HomeBrew
-sudo apt install build-essential procps curl file git
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bash_profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+#Carregar terminal
+dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
 
-#PacotesBREW
 
-#Backup
+#Load Backup
 cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/
 dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
+
+dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
+

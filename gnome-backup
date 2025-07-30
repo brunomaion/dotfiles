@@ -71,7 +71,7 @@ initial-size=(890, 550)
 maximized=false
 
 [org/gnome/control-center]
-last-panel='sound'
+last-panel='background'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
@@ -116,13 +116,19 @@ icon-theme='Yaru-viridian'
 monospace-font-name='FiraCode Nerd Font weight=450 13'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'org-gnome-terminal']
+application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences']
 
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
 
+[org/gnome/desktop/notifications/application/org-gnome-terminal-preferences]
+application-id='org.gnome.Terminal.Preferences.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-terminal]
 application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=false
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
@@ -154,7 +160,7 @@ initial-size=(890, 550)
 maximized=false
 
 [org/gnome/portal/filechooser/snap.firefox]
-last-folder-path='/home/bruno/Downloads'
+last-folder-path='/home/bruno/Desktop'
 
 [org/gnome/shell]
 app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'org.gnome.Totem.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'simple-scan.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <5>}>, 'org.gnome.Terminal.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'software-properties-drivers.desktop': <{'position': <8>}>, 'org.gnome.Calendar.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'echomixer.desktop': <{'position': <11>}>, 'envy24control.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'fish.desktop': <{'position': <14>}>, 'hdajackretask.desktop': <{'position': <15>}>, 'hdspconf.desktop': <{'position': <16>}>, 'hdspmixer.desktop': <{'position': <17>}>, 'htop.desktop': <{'position': <18>}>, 'org.gnome.eog.desktop': <{'position': <19>}>, 'gnome-language-selector.desktop': <{'position': <20>}>, 'libreoffice-startcenter.desktop': <{'position': <21>}>, 'libreoffice-base.desktop': <{'position': <22>}>, 'libreoffice-calc.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'nvidia-settings.desktop': <{'position': <4>}>, 'org.gnome.PowerStats.desktop': <{'position': <5>}>, 'pavucontrol.desktop': <{'position': <6>}>, 'org.remmina.Remmina.desktop': <{'position': <7>}>, 'rmedigicontrol.desktop': <{'position': <8>}>, 'org.gnome.Shotwell.desktop': <{'position': <9>}>, 'software-properties-gtk.desktop': <{'position': <10>}>, 'update-manager.desktop': <{'position': <11>}>, 'spotify_spotify.desktop': <{'position': <12>}>, 'gnome-session-properties.desktop': <{'position': <13>}>, 'usb-creator-gtk.desktop': <{'position': <14>}>, 'org.gnome.TextEditor.desktop': <{'position': <15>}>, 'transmission-gtk.desktop': <{'position': <16>}>, 'vim.desktop': <{'position': <17>}>, 'code_code.desktop': <{'position': <18>}>}]
@@ -181,12 +187,121 @@ overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.m
 [org/gnome/shell/world-clocks]
 locations=@av []
 
+[org/gnome/terminal/legacy]
+always-check-default-terminal=false
+menu-accelerator-enabled=true
+new-terminal-mode='tab'
+theme-variant='system'
+
+[org/gnome/terminal/legacy/profiles:]
+default='57bbedd8-cb46-4f5a-aa42-2c8e16d2eb0f'
+list=['57bbedd8-cb46-4f5a-aa42-2c8e16d2eb0f']
+
+[org/gnome/terminal/legacy/profiles:/:242e0f13-91b6-41f5-922f-5763c7d7a04f]
+allow-bold=true
+background-color='#272728282222'
+bold-color='#F8F8F8F8F2F2'
+bold-color-same-as-fg=true
+cursor-background-color='#F8F8F8F8F2F2'
+cursor-colors-set=true
+cursor-foreground-color='#272728282222'
+foreground-color='#F8F8F8F8F2F2'
+highlight-colors-set=false
+palette=['#757571715E5E', '#F9F926267272', '#A6A6E2E22E2E', '#F4F4BFBF7575', '#6666D9D9EFEF', '#AEAE8181FFFF', '#2A2AA1A19898', '#F9F9F8F8F5F5', '#272728282222', '#F9F926267272', '#A6A6E2E22E2E', '#F4F4BFBF7575', '#6666D9D9EFEF', '#AEAE8181FFFF', '#2A2AA1A19898', '#F8F8F8F8F2F2']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='Monokai Dark'
+
+[org/gnome/terminal/legacy/profiles:/:3d7850e2-c4f1-4273-b7b5-5d88548565e4]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:57bbedd8-cb46-4f5a-aa42-2c8e16d2eb0f]
+allow-bold=true
+background-color='#1E1E1E1E1E1E'
+background-transparency-percent=0
+bold-color='#CCCCCCCCCCCC'
+bold-color-same-as-fg=true
+bold-is-bright=true
+cursor-background-color='#CCCCCCCCCCCC'
+cursor-blink-mode='on'
+cursor-colors-set=true
+cursor-foreground-color='#1E1E1E1E1E1E'
+cursor-shape='ibeam'
+foreground-color='#CCCCCCCCCCCC'
+highlight-colors-set=false
+palette=['#6A6A78787A7A', '#E9E965653B3B', '#3939E9E9A8A8', '#E5E5B6B68484', '#4444AAAAE6E6', '#E1E175759999', '#3D3DD5D5E7E7', '#C3C3DDDDE1E1', '#595984848989', '#E6E650502929', '#0000FFFF9A9A', '#E8E894944040', '#00009A9AFBFB', '#FFFF57578F8F', '#5F5FFFFFFFFF', '#D9D9FBFBFFFF']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Vs Code Dark+'
+
+[org/gnome/terminal/legacy/profiles:/:627a5cf1-1ffe-4c0e-adce-401e535166e9]
+visible-name='aaa'
+
+[org/gnome/terminal/legacy/profiles:/:779b8fd0-4cd9-4a68-a6bd-2aa8e73c80bf]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:7aa4ec5c-d84f-41ca-b12d-ace2e0cc4ac2]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:7d39f886-f9a9-49ad-ac2a-ebd8bce4adc2]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:9de99a1a-2e4e-4a20-a26a-3c9a5bceea07]
+allow-bold=true
+use-theme-background=false
+
 [org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(46,52,54)'
 cursor-colors-set=false
 foreground-color='rgb(211,215,207)'
 palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(52,101,164)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(138,226,52)', 'rgb(252,233,79)', 'rgb(114,159,207)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
 use-theme-colors=false
+
+[org/gnome/terminal/legacy/profiles:/:b8b8c0b6-5b9b-4b04-9254-642bf8db02ec]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:b9aeaf08-7b6b-41a6-a6f7-32187127aa42]
+allow-bold=true
+audible-bell=true
+background-color='#1E1E1E1E1E1E'
+bold-color='#CCCCCCCCCCCC'
+bold-color-same-as-fg=true
+cursor-background-color='#CCCCCCCCCCCC'
+cursor-colors-set=true
+cursor-foreground-color='#1E1E1E1E1E1E'
+cursor-shape='ibeam'
+foreground-color='#CCCCCCCCCCCC'
+highlight-colors-set=false
+highlight-foreground-color='rgb(255,255,255)'
+palette=['#6A6A78787A7A', '#E9E965653B3B', '#3939E9E9A8A8', '#E5E5B6B68484', '#4444AAAAE6E6', '#E1E175759999', '#3D3DD5D5E7E7', '#C3C3DDDDE1E1', '#595984848989', '#E6E650502929', '#0000FFFF9A9A', '#E8E894944040', '#00009A9AFBFB', '#FFFF57578F8F', '#5F5FFFFFFFFF', '#D9D9FBFBFFFF']
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+visible-name='pcbruno'
+
+[org/gnome/terminal/legacy/profiles:/:c3dd45da-a3cd-4a5d-8196-83449d457a91]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:d3ad8aeb-acea-4f31-9942-dbd6f77bece6]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:f5b40ec1-caae-4a76-9db2-47913cf6968e]
+allow-bold=true
+use-theme-background=false
+
+[org/gnome/terminal/legacy/profiles:/:f6321d40-8abb-4923-a601-c13b960128b4]
+allow-bold=true
+use-theme-background=false
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
@@ -199,6 +314,10 @@ sort-order='ascending'
 type-format='category'
 view-type='list'
 window-size=(819, 372)
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.59666666666666668, 0.59666666666666668, 0.59666666666666668, 1.0), (0.62745098039215685, 0.62745098039215685, 0.62745098039215685, 1.0), (0.11372549019607843, 0.14901960784313725, 0.18431372549019609, 1.0)]
+selected-color=(true, 1.0, 1.0, 1.0, 1.0)
 
 [portal/filechooser/snap.firefox]
 last-folder-path='/home/bruno/Downloads'
