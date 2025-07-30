@@ -42,6 +42,11 @@ chsh -s /usr/bin/fish
 fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
 
 
+./confohmyposh.sh
+
+
+echo "Carregando backups"
+
 #Carregar terminal
 dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
 
@@ -51,4 +56,6 @@ cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/
 dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
 
 dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
+
+echo "FIM do init.sh"
 
