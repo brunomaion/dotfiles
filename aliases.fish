@@ -17,4 +17,4 @@ alias -s fx="firefox https://x.com/"
 alias -s ompc="nano ~/.config/fish/config.fish"
 
 #EXES
-
+alias -s gogh='bash -c  "$(wget -qO- https://git.io/vQgMr)"'

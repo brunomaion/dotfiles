@@ -50,6 +50,10 @@ echo "Carregando backups"
 
 #Load Backup
 cp ~/Desktop/DirBruno/dotfiles/.gitconfig ~/
+
+dconf dump / > ~/Desktop/DirBruno/dotfiles/lixo #Copia descartavel
+rm -rf ~/Desktop/DirBruno/dotfiles/lixo
+
 dconf load / < ~/Desktop/DirBruno/dotfiles/gnome-backup
 dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
 cp ~/Desktop/DirBruno/dotfiles/config.fish ~/.config/fish/config.fish
