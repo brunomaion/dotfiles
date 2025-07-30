@@ -36,13 +36,19 @@ done
 
 #FISH
 echo "Iniciando configuração do Fish..."
-
 ## Mudando shell pro Fish
-
 chsh -s /usr/bin/fish
-
 # Carrega aliases.fish no shell Fish
 fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
+
+
+#HomeBrew
+sudo apt install build-essential procps curl file git
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> $HOME/.bash_profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+#PacotesBREW
 
 #Backup
 cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/

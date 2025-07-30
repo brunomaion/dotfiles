@@ -22,3 +22,4 @@ rm ~/.poshthemes/themes.zip
 
 #Add: oh-my-posh init fish --config $HOME/.poshthemes/montys.omp.json | source
 #in: gnome-text-editor $HOME/.config/fish/config.fish
+#gogh: bash -c  "$(wget -qO- https://git.io/vQgMr)"
