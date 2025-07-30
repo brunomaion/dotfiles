@@ -5,12 +5,12 @@
 
 Salvar
 
-'''.sh
+```.sh
 dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
-'''
+```
 
 Carregar
 
-'''.sh
+```.sh
 dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
-'''
+```
