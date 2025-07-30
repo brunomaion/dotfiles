@@ -47,15 +47,12 @@ fish -c "source $(pwd)/aliases.fish; echo 'Aliases carregados no Fish.'"
 
 echo "Carregando backups"
 
-#Carregar terminal
-dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
-
 
 #Load Backup
 cp ~/Desktop/DirBruno/dotfiles/.gitconfig ~/
-dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
-
+dconf load / < ~/Desktop/DirBruno/dotfiles/gnome-backup
 dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
+cp ~/Desktop/DirBruno/dotfiles/config.fish ~/.config/fish/config.fish
 
 echo "FIM do init.sh"
 
