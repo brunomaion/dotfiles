@@ -52,7 +52,7 @@ dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/p
 
 
 #Load Backup
-cp /home/bruno/Desktop/DirBruno/dotfiles/.gitconfig ~/
+cp ~/Desktop/DirBruno/dotfiles/.gitconfig ~/
 dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
 
 dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
