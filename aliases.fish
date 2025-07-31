@@ -8,6 +8,7 @@ alias -s ..="cd .."
 alias -s desk="cd ~/Desktop"
 alias -s dbruno="cd ~/Desktop/DirBruno"
 alias -s ddot="cd ~/Desktop/DirBruno/dotfiles"
+alias -s disco="df -h"
 
 #LINKS
 alias -s fgpt="firefox https://chatgpt.com/"

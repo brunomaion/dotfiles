@@ -9,7 +9,12 @@ PACKAGES=(
   htop
   fish
   libreoffice
-  gnome-tweaks -y
+  "gnome-tweaks -y"
+  deafult-jdk
+  maven
+  mysql-server
+  python3
+  python3-pip
 )
 
 echo "Atualizando lista de pacotes..."
