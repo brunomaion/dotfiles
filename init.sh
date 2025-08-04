@@ -30,6 +30,7 @@ echo "Todos os pacotes foram instalados."
 SNAP_PACKAGES=(
   "code --classic"
   "spotify"
+  dbeaver-ce
 )
 
 echo "📦 Instalando pacotes Snap..."
