@@ -15,6 +15,7 @@ PACKAGES=(
   mysql-server
   python3
   python3-pip
+  r-base
 )
 
 echo "Atualizando lista de pacotes..."
@@ -31,6 +32,8 @@ SNAP_PACKAGES=(
   "code --classic"
   "spotify"
   dbeaver-ce
+  "rstudio --classic"
+  "kolourpaint --classic"
 )
 
 echo "📦 Instalando pacotes Snap..."
