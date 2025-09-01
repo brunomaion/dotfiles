@@ -43,6 +43,10 @@ for snap_pkg in "${SNAP_PACKAGES[@]}"; do
 done
 
 
+#Fastfetch
+add-apt-repository ppa:zhangsongcui3371/fastfetch
+apt install fastfetch
+
 #FISH
 echo "Iniciando configuração do Fish..."
 ## Mudando shell pro Fish
