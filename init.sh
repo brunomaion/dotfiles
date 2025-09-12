@@ -44,8 +44,8 @@ done
 
 
 #Fastfetch
-add-apt-repository ppa:zhangsongcui3371/fastfetch
-apt install fastfetch
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+sudo apt install fastfetch
 
 #FISH
 echo "Iniciando configuração do Fish..."
