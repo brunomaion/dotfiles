@@ -1,10 +1,10 @@
-sudo cp ~/.gitconfig ~/Desktop/DirBruno/dotfiles
-dconf dump / > ~/Desktop/DirBruno/dotfiles/gnome-backup
+sudo cp ~/.gitconfig ~/Desktop/dotfiles
+dconf dump / > ~/Desktop/dotfiles/gnome-backup
 
 #Fish config
-cp ~/.config/fish/config.fish ~/Desktop/DirBruno/dotfiles/config.fish
+cp ~/.config/fish/config.fish ~/Desktop/dotfiles/config.fish
 
 
 #Terminal profile
-dconf dump /org/gnome/terminal/legacy/profiles:/ > ~/Desktop/DirBruno/dotfiles/profile_terminal
+dconf dump /org/gnome/terminal/legacy/profiles:/ > ~/Desktop/dotfiles/profile_terminal
 

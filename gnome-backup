@@ -4,7 +4,7 @@ launch-count=3
 launch-time=int64 1757690671
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1756854453
+release-check-time=uint32 1771964221
 
 [control-center]
 last-panel='sound'
@@ -87,7 +87,7 @@ window-size=(360, 491)
 word-size=64
 
 [org/gnome/control-center]
-last-panel='network'
+last-panel='background'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
@@ -116,25 +116,28 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/bruno/.config/background'
-picture-uri-dark='file:///home/bruno/.config/background'
+picture-uri='file:///home/maio/Desktop/dotfiles/wallpapers/dragon_sea_water_person_white_blue_sky_underwater.png'
+picture-uri-dark='file:///home/maio/Desktop/dotfiles/wallpapers/dragon_sea_water_person_white_blue_sky_underwater.png'
 primary-color='#000000'
 secondary-color='#000000'
 
 [org/gnome/desktop/input-sources]
 mru-sources=[('xkb', 'us')]
 per-window=false
-sources=[('xkb', 'br')]
+sources=[('xkb', 'us+intl')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
 color-scheme='prefer-dark'
-gtk-theme='Yaru-blue-dark'
-icon-theme='Yaru-blue'
+gtk-theme='Yaru-prussiangreen-dark'
+icon-theme='Yaru-prussiangreen'
 monospace-font-name='FiraCode Nerd Font weight=450 13'
 
 [org/gnome/desktop/notifications]
 application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration']
+
+[org/gnome/desktop/notifications/application/apport-gtk]
+application-id='apport-gtk.desktop'
 
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
@@ -198,7 +201,8 @@ sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
 app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'org.gnome.Totem.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'simple-scan.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <5>}>, 'org.gnome.Terminal.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'software-properties-drivers.desktop': <{'position': <8>}>, 'org.gnome.Calendar.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'echomixer.desktop': <{'position': <11>}>, 'envy24control.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'fish.desktop': <{'position': <14>}>, 'hdajackretask.desktop': <{'position': <15>}>, 'hdspconf.desktop': <{'position': <16>}>, 'hdspmixer.desktop': <{'position': <17>}>, 'htop.desktop': <{'position': <18>}>, 'org.gnome.eog.desktop': <{'position': <19>}>, 'gnome-language-selector.desktop': <{'position': <20>}>, 'libreoffice-startcenter.desktop': <{'position': <21>}>, 'libreoffice-base.desktop': <{'position': <22>}>, 'libreoffice-calc.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'nvidia-settings.desktop': <{'position': <4>}>, 'org.gnome.PowerStats.desktop': <{'position': <5>}>, 'pavucontrol.desktop': <{'position': <6>}>, 'org.remmina.Remmina.desktop': <{'position': <7>}>, 'rmedigicontrol.desktop': <{'position': <8>}>, 'org.gnome.Shotwell.desktop': <{'position': <9>}>, 'software-properties-gtk.desktop': <{'position': <10>}>, 'update-manager.desktop': <{'position': <11>}>, 'spotify_spotify.desktop': <{'position': <12>}>, 'gnome-session-properties.desktop': <{'position': <13>}>, 'usb-creator-gtk.desktop': <{'position': <14>}>, 'org.gnome.TextEditor.desktop': <{'position': <15>}>, 'transmission-gtk.desktop': <{'position': <16>}>, 'vim.desktop': <{'position': <17>}>, 'code_code.desktop': <{'position': <18>}>}]
-enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+disabled-extensions=@as []
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'pano@elhan.io']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'spotify_spotify.desktop']
 welcome-dialog-last-shown-version='46.0'
 
@@ -214,6 +218,7 @@ show-mounts-only-mounted=true
 show-trash=false
 
 [org/gnome/shell/extensions/ding]
+check-x11wayland=true
 show-home=true
 start-corner='bottom-right'
 
@@ -386,6 +391,9 @@ overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.m
 
 [shell/world-clocks]
 locations=@av []
+
+[system/locale]
+region='en_GB.UTF-8'
 
 [terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(46,52,54)'

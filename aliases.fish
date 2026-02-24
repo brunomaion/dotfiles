@@ -1,5 +1,5 @@
 #CAT
-alias -s tokengit="cat ~/Desktop/DirBruno/tokengit.txt"
+alias -s tokengit="cat ~/Desktop/dotfiles/tokengit.txt"
 
 #DIR
 alias -s cls="clear"
@@ -7,7 +7,7 @@ alias -s c="clear"
 alias -s ..="cd .."
 alias -s desk="cd ~/Desktop"
 alias -s dbruno="cd ~/Desktop/DirBruno"
-alias -s ddot="cd ~/Desktop/DirBruno/dotfiles"
+alias -s ddot="cd ~/Desktop/dotfiles"
 alias -s disco="df -h"
 
 #LINKS

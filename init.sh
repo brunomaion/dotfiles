@@ -16,7 +16,8 @@ PACKAGES=(
   python3
   python3-pip
   r-base
-)
+  gnome-shell-extensions
+) 
 
 echo "Atualizando lista de pacotes..."
 sudo apt update
@@ -32,7 +33,6 @@ SNAP_PACKAGES=(
   "code --classic"
   "spotify"
   dbeaver-ce
-  "rstudio --classic"
   "kolourpaint --classic"
 )
 
@@ -62,14 +62,11 @@ echo "Carregando backups"
 
 
 #Load Backup
-cp ~/Desktop/DirBruno/dotfiles/.gitconfig ~/
+cp ~/Desktop/dotfiles/.gitconfig ~/
 
-dconf dump / > ~/Desktop/DirBruno/dotfiles/lixo #Copia descartavel
-rm -rf ~/Desktop/DirBruno/dotfiles/lixo
-
-dconf load / < ~/Desktop/DirBruno/dotfiles/gnome-backup
-dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/DirBruno/dotfiles/profile_terminal
-cp ~/Desktop/DirBruno/dotfiles/config.fish ~/.config/fish/config.fish
+dconf load / < ~/Desktop/dotfiles/gnome-backup
+dconf load /org/gnome/terminal/legacy/profiles:/ < ~/Desktop/dotfiles/profile_terminal
+cp ~/Desktop/dotfiles/config.fish ~/.config/fish/config.fish
 
 echo "FIM do init.sh"
 
