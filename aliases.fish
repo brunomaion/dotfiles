@@ -1,5 +1,5 @@
 #CAT
-alias -s tokengit="cat ~/Desktop/dotfiles/tokengit.txt"
+alias -s tokengit="cat ~/Desktop/dotfiles/tokengit.txt | xclip -selection clipboard"
 
 #DIR
 alias -s cls="clear"
