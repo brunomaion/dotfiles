@@ -34,6 +34,7 @@ SNAP_PACKAGES=(
   "spotify"
   dbeaver-ce
   "kolourpaint --classic"
+  insomnia
 )
 
 echo "📦 Instalando pacotes Snap..."
@@ -47,10 +48,6 @@ done
 sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 sudo apt install fastfetch
 
-#Insomnia
-curl -1sLf 'https://packages.konghq.com/public/insomnia/setup.deb.sh' | sudo -E bash
-sudo apt update
-sudo apt install insomnia
 
 
 #FISH
