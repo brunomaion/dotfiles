@@ -34,7 +34,7 @@ SNAP_PACKAGES=(
   "spotify"
   dbeaver-ce
   "kolourpaint --classic"
-  insomnia
+  postman
 )
 
 echo "📦 Instalando pacotes Snap..."
