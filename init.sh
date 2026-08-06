@@ -1,5 +1,7 @@
 #!/bin/bash
 
+make "" >> $HOME/Desktop/dotfiles/tokengit.txt
+
 # Lista de pacotes
 PACKAGES=(
   git
