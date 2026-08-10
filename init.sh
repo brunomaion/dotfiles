@@ -19,6 +19,8 @@ PACKAGES=(
   python3-pip
   r-base
   gnome-shell-extensions
+  vlc
+  qbittorrent
 ) 
 
 echo "Atualizando lista de pacotes..."

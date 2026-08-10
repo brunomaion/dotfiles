@@ -1,10 +1,10 @@
 [apps/update-manager]
 first-run=false
 launch-count=3
-launch-time=int64 1757690671
+launch-time=int64 1786336340
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1771964221
+release-check-time=uint32 1785175002
 
 [control-center]
 last-panel='sound'
@@ -70,6 +70,22 @@ search-filter-time-type='last_modified'
 initial-size=(890, 550)
 maximized=false
 
+[org/gnome/Ptyxis]
+cursor-blink-mode='system'
+cursor-shape='ibeam'
+default-profile-uuid='9b95a909063e2f9bac05d3746a54f743'
+interface-style='dark'
+profile-uuids=['9b95a909063e2f9bac05d3746a54f743']
+use-system-font=true
+visual-bell=true
+window-size=(uint32 79, uint32 24)
+
+[org/gnome/Ptyxis/Profiles/9b95a909063e2f9bac05d3746a54f743]
+palette='Vs Code'
+
+[org/gnome/TextEditor]
+last-save-directory='file:///home/maion/Desktop'
+
 [org/gnome/calculator]
 accuracy=9
 angle-units='degrees'
@@ -79,15 +95,29 @@ number-format='automatic'
 show-thousands=false
 show-zeroes=false
 source-currency=''
-source-units='degree'
+source-units=['degree']
 target-currency=''
-target-units='radian'
+target-units=['radian']
+unit-category='angle'
 window-maximized=false
-window-size=(360, 491)
+window-size=(360, 616)
 word-size=64
 
+[org/gnome/cheese]
+burst-delay=1000
+camera='Integrated_Webcam_HD: Integrate'
+photo-x-resolution=1280
+photo-y-resolution=720
+video-x-resolution=1280
+video-y-resolution=720
+
+[org/gnome/clocks/state/window]
+maximized=false
+panel-id='stopwatch'
+size=(870, 690)
+
 [org/gnome/control-center]
-last-panel='background'
+last-panel='wifi'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
@@ -100,6 +130,11 @@ folder-children=['Utilities', 'YaST', 'Pardus']
 [org/gnome/desktop/app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']
 name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System]
+apps=['nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'im-config.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Sysprof.desktop']
+name='X-GNOME-Shell-System.directory'
 translate=true
 
 [org/gnome/desktop/app-folders/folders/Utilities]
@@ -116,31 +151,68 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/maio/Desktop/dotfiles/wallpapers/dragon_sea_water_person_white_blue_sky_underwater.png'
-picture-uri-dark='file:///home/maio/Desktop/dotfiles/wallpapers/dragon_sea_water_person_white_blue_sky_underwater.png'
-primary-color='#000000'
-secondary-color='#000000'
+picture-uri='file:///usr/share/backgrounds/ubuntu-wallpaper-d.png'
+picture-uri-dark='file:///usr/share/backgrounds/ubuntu-wallpaper-d.png'
+primary-color='#2c001e'
+secondary-color='#2c001e'
+
+[org/gnome/desktop/break-reminders/eyesight]
+play-sound=true
+
+[org/gnome/desktop/break-reminders/movement]
+duration-seconds=uint32 300
+interval-seconds=uint32 1800
+play-sound=true
 
 [org/gnome/desktop/input-sources]
 mru-sources=[('xkb', 'us')]
 per-window=false
-sources=[('xkb', 'us+intl')]
+sources=[('xkb', 'br')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
+accent-color='teal'
+clock-format='12h'
 color-scheme='prefer-dark'
+cursor-theme='DMZ-White'
+font-hinting='none'
+font-name='FiraCode Nerd Font Medium 11'
 gtk-theme='Yaru-prussiangreen-dark'
-icon-theme='Yaru-prussiangreen'
+icon-theme='Yaru-prussiangreen-dark'
 monospace-font-name='FiraCode Nerd Font weight=450 13'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration']
+application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings']
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
 
+[org/gnome/desktop/notifications/application/cheese-cheese]
+application-id='cheese_cheese.desktop'
+
+[org/gnome/desktop/notifications/application/discord-discord]
+application-id='discord_discord.desktop'
+
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-characters]
+application-id='org.gnome.Characters.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
+application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-goa-daemon]
+application-id='org.gnome.goa-daemon.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-terminal-preferences]
 application-id='org.gnome.Terminal.Preferences.desktop'
@@ -157,21 +229,33 @@ application-id='update-manager.desktop'
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
 
+[org/gnome/desktop/peripherals/mouse]
+speed=0.30000000000000004
+
 [org/gnome/desktop/peripherals/touchpad]
 two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+
+[org/gnome/desktop/screen-time-limits]
+daily-limit-seconds=uint32 28800
 
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/Clouds_by_Tibor_Mokanszki.jpg'
-primary-color='#000000'
-secondary-color='#000000'
+picture-uri='file:///usr/share/backgrounds/ubuntu-wallpaper-d.png'
+primary-color='#2c001e'
+secondary-color='#2c001e'
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=false
 
 [org/gnome/evolution-data-server]
 migrated=true
+
+[org/gnome/evolution-data-server/calendar]
+reminders-past=['2d7c773e905b492e7b8ee3838661c7b83c3ffc9b\n3b388dbaf0a7dec82414b231dfeb5999bfb4725a\t20260805\n1785862800\n1785888000\n1785974400\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20260805\r\nDTEND;VALUE=DATE:20260806\r\nRRULE:FREQ=WEEKLY;BYDAY=WE\r\nDTSTAMP:20260803T062908Z\r\nUID:0e7kajd7450b7p8ugaqgo8ntaq@google.com\r\nCREATED:20260803T062908Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20260803T062908Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Qualificacao\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63921421748\r\nRECURRENCE-ID;VALUE=DATE:20260805\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT7H\r\nX-EVOLUTION-ALARM-UID:3b388dbaf0a7dec82414b231dfeb5999bfb4725a\r\nEND:VALARM\r\nEND:VEVENT\r\n', '2d7c773e905b492e7b8ee3838661c7b83c3ffc9b\n62e262b2c80b3e9c2c21ec5eb61a59926bcc1525\t20260804\n1785776400\n1785801600\n1785888000\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20260804\r\nDTEND;VALUE=DATE:20260805\r\nRRULE:FREQ=WEEKLY;BYDAY=TU\r\nDTSTAMP:20260803T063319Z\r\nUID:1e27v3nf7jv5ts6rmmvdb81oua@google.com\r\nCREATED:20260803T063318Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20260803T063319Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Leszek\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63921421999\r\nRECURRENCE-ID;VALUE=DATE:20260804\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT7H\r\nX-EVOLUTION-ALARM-UID:62e262b2c80b3e9c2c21ec5eb61a59926bcc1525\r\nEND:VALARM\r\nEND:VEVENT\r\n']
 
 [org/gnome/mutter]
 edge-tiling=false
@@ -180,6 +264,9 @@ edge-tiling=false
 toggle-tiled-left=@as []
 toggle-tiled-right=@as []
 
+[org/gnome/nautilus/icon-view]
+default-zoom-level='medium'
+
 [org/gnome/nautilus/preferences]
 default-folder-viewer='icon-view'
 migrated-gtk-settings=true
@@ -187,23 +274,63 @@ search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
 initial-size=(890, 550)
+initial-size-file-chooser=(890, 550)
 maximized=true
+
+[org/gnome/nm-applet/eap/40e51675-f36a-494b-bb09-4e95745455c9]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/52c734f8-8f3f-462b-816a-1720c71ec206]
+ignore-ca-cert=true
+ignore-phase2-ca-cert=false
+
+[org/gnome/papers]
+night-mode=false
+
+[org/gnome/papers/default]
+annot-color='yellow'
+continuous=true
+dual-page=false
+dual-page-odd-left=true
+enable-spellchecking=true
+eraser-mode-objects='true'
+highlight-color='yellow'
+highlight-stroke=2.0
+pen-color='blue'
+pen-stroke=1.0
+show-sidebar=false
+sizing-mode='free'
+text-color='blue'
+window-height=1048
+window-maximized=true
+zoom=0.47942106326124789
+
+[org/gnome/portal/filechooser/firefox_firefox]
+last-folder-path='/home/maion/Downloads'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/bruno/Pictures/Screenshots'
 
+[org/gnome/portal/filechooser/org.gnome.TextEditor]
+last-folder-path='/home/maion/Desktop'
+
 [org/gnome/portal/filechooser/snap.firefox]
 last-folder-path='/home/bruno/Downloads'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-schedule-automatic=false
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'org.gnome.Totem.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'simple-scan.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <5>}>, 'org.gnome.Terminal.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'software-properties-drivers.desktop': <{'position': <8>}>, 'org.gnome.Calendar.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'echomixer.desktop': <{'position': <11>}>, 'envy24control.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'fish.desktop': <{'position': <14>}>, 'hdajackretask.desktop': <{'position': <15>}>, 'hdspconf.desktop': <{'position': <16>}>, 'hdspmixer.desktop': <{'position': <17>}>, 'htop.desktop': <{'position': <18>}>, 'org.gnome.eog.desktop': <{'position': <19>}>, 'gnome-language-selector.desktop': <{'position': <20>}>, 'libreoffice-startcenter.desktop': <{'position': <21>}>, 'libreoffice-base.desktop': <{'position': <22>}>, 'libreoffice-calc.desktop': <{'position': <23>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'nvidia-settings.desktop': <{'position': <4>}>, 'org.gnome.PowerStats.desktop': <{'position': <5>}>, 'pavucontrol.desktop': <{'position': <6>}>, 'org.remmina.Remmina.desktop': <{'position': <7>}>, 'rmedigicontrol.desktop': <{'position': <8>}>, 'org.gnome.Shotwell.desktop': <{'position': <9>}>, 'software-properties-gtk.desktop': <{'position': <10>}>, 'update-manager.desktop': <{'position': <11>}>, 'spotify_spotify.desktop': <{'position': <12>}>, 'gnome-session-properties.desktop': <{'position': <13>}>, 'usb-creator-gtk.desktop': <{'position': <14>}>, 'org.gnome.TextEditor.desktop': <{'position': <15>}>, 'transmission-gtk.desktop': <{'position': <16>}>, 'vim.desktop': <{'position': <17>}>, 'code_code.desktop': <{'position': <18>}>}]
+app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.Ptyxis.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <8>}>, 'kolourpaint_kolourpaint.desktop': <{'position': <9>}>, 'postman_postman.desktop': <{'position': <10>}>, 'R.desktop': <{'position': <11>}>, 'info.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'htop.desktop': <{'position': <14>}>, 'gnome-language-selector.desktop': <{'position': <15>}>, 'libreoffice-startcenter.desktop': <{'position': <16>}>, 'libreoffice-base.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'org.gnome.Papers.desktop': <{'position': <4>}>, 'org.gnome.font-viewer.desktop': <{'position': <5>}>, 'org.gnome.Logs.desktop': <{'position': <6>}>, 'org.gnome.Sysprof.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'snap-store_snap-store.desktop': <{'position': <9>}>, 'org.gnome.Yelp.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>, 'vim.desktop': <{'position': <13>}>, 'code_code.desktop': <{'position': <14>}>}]
 disabled-extensions=@as []
 enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'pano@elhan.io']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'spotify_spotify.desktop']
+last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
 [org/gnome/shell/extensions/dash-to-dock]
@@ -220,16 +347,20 @@ show-trash=false
 [org/gnome/shell/extensions/ding]
 check-x11wayland=true
 show-home=true
-start-corner='bottom-right'
+start-corner='top-left'
 
 [org/gnome/shell/extensions/tiling-assistant]
 active-window-hint-color='rgb(211,70,21)'
-last-version-installed=46
+focus-hint-color='rgb(203,67,20)'
+last-version-installed=54
 overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
 tiling-popup-all-workspace=true
 
 [org/gnome/shell/world-clocks]
 locations=@av []
+
+[org/gnome/system/location]
+enabled=false
 
 [org/gnome/terminal/legacy]
 always-check-default-terminal=false
@@ -364,6 +495,7 @@ custom-colors=[(0.59666666666666668, 0.59666666666666668, 0.59666666666666668, 1
 selected-color=(true, 1.0, 1.0, 1.0, 1.0)
 
 [org/gtk/settings/file-chooser]
+clock-format='12h'
 date-format='regular'
 location-mode='path-bar'
 show-hidden=false
