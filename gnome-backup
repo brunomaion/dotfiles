@@ -182,7 +182,7 @@ icon-theme='Yaru-prussiangreen-dark'
 monospace-font-name='FiraCode Nerd Font weight=450 13'
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings']
+application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings', 'org-gnome-texteditor']
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
@@ -219,6 +219,9 @@ application-id='org.gnome.Terminal.Preferences.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-terminal]
 application-id='org.gnome.Terminal.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-texteditor]
+application-id='org.gnome.TextEditor.desktop'
 
 [org/gnome/desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
 application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
@@ -307,7 +310,7 @@ window-maximized=true
 zoom=0.47942106326124789
 
 [org/gnome/portal/filechooser/firefox_firefox]
-last-folder-path='/home/maion/Downloads'
+last-folder-path='/home/maion/Desktop'
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
 last-folder-path='/home/bruno/Pictures/Screenshots'
@@ -317,6 +320,9 @@ last-folder-path='/home/maion/Desktop'
 
 [org/gnome/portal/filechooser/snap.firefox]
 last-folder-path='/home/bruno/Downloads'
+
+[org/gnome/portal/filechooser/spotify_spotify]
+last-folder-path='/home/maion/Desktop'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-schedule-automatic=false
@@ -481,7 +487,7 @@ use-theme-background=false
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
 location-mode='path-bar'
-show-hidden=false
+show-hidden=true
 sidebar-width=140
 sort-column='name'
 sort-directories-first=true

@@ -39,6 +39,7 @@ SNAP_PACKAGES=(
   dbeaver-ce
   "kolourpaint --classic"
   postman
+  obsdian
 )
 
 echo "📦 Instalando pacotes Snap..."

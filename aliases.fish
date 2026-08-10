@@ -21,3 +21,5 @@ alias -s drive="firefox https://drive.google.com/"
 
 #EXES
 alias -s gogh='bash -c  "$(wget -qO- https://git.io/vQgMr)"'
+alias -s ralias='fish /home/maion/Desktop/dotfiles/aliases.fish'
+alias -s text='gnome-text-editor'
