@@ -1,10 +1,10 @@
 [apps/update-manager]
 first-run=false
-launch-count=3
-launch-time=int64 1788214496
+launch-count=4
+launch-time=int64 1790667537
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1788031917
+release-check-time=uint32 1790537736
 
 [control-center]
 last-panel='sound'
@@ -84,7 +84,7 @@ interface-style='dark'
 profile-uuids=['9b95a909063e2f9bac05d3746a54f743']
 use-system-font=true
 visual-bell=true
-window-size=(uint32 173, uint32 45)
+window-size=(uint32 137, uint32 26)
 
 [org/gnome/Ptyxis/Profiles/9b95a909063e2f9bac05d3746a54f743]
 palette='Vs Code'
@@ -126,19 +126,22 @@ photo-y-resolution=720
 video-x-resolution=1280
 video-y-resolution=720
 
+[org/gnome/clocks]
+timers=[{'duration': <720>, 'name': <''>}, {'duration': <120>, 'name': <''>}]
+
 [org/gnome/clocks/state/window]
 maximized=false
-panel-id='stopwatch'
+panel-id='timer'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='bluetooth'
+last-panel='background'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
 backend='google'
 periodic-timestamp='2026-08-15T01:16:56.236317-03'
-prompt-check='2026-08-15T04:53:16.066498-03'
+prompt-check='2026-09-14T10:29:44.257043-04'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus']
@@ -167,10 +170,10 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/maion/.config/background'
-picture-uri-dark='file:///home/maion/.config/background'
-primary-color='#2c001e'
-secondary-color='#2c001e'
+picture-uri='file:///usr/share/backgrounds/osselo-Ask_a_friend.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/osselo-Ask_a_friend.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
 
 [org/gnome/desktop/break-reminders/eyesight]
 play-sound=true
@@ -190,28 +193,40 @@ sources=[('xkb', 'br')]
 xkb-options=@as []
 
 [org/gnome/desktop/interface]
-accent-color='teal'
+accent-color='purple'
 clock-format='12h'
 color-scheme='prefer-dark'
 cursor-theme='DMZ-White'
 font-hinting='none'
 font-name='FiraCode Nerd Font Propo 11'
-gtk-theme='Yaru-prussiangreen-dark'
-icon-theme='Yaru-prussiangreen-dark'
+gtk-theme='Yaru-purple-dark'
+icon-theme='Yaru-purple-dark'
 monospace-font-name='FiraCode Nerd Font weight=450 13'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings', 'org-gnome-texteditor', 'org-gnome-dejadup', 'org-gnome-ptyxis', 'dbeaver-ce-dbeaver-ce', 'code-code', 'steam', 'fastpotify', 'org-gnome-showtime', 'vlc', 'org-qbittorrent-qbittorrent', 'org-gnome-software']
+application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings', 'org-gnome-texteditor', 'org-gnome-dejadup', 'org-gnome-ptyxis', 'dbeaver-ce-dbeaver-ce', 'code-code', 'steam', 'fastpotify', 'org-gnome-showtime', 'vlc', 'org-qbittorrent-qbittorrent', 'org-gnome-software', 'acrordrdc-acrordrdc', 'proton-vpn-proton-vpn', 'wine-programs-supremapoker-supremapoker', 'com-anthropic-claude', 'calibre-gui', 'libreoffice-draw', 'org-gnome-clocks', 'obsidian-obsidian', 'com-stremio-stremio', 'org-gnome-extensions']
+
+[org/gnome/desktop/notifications/application/acrordrdc-acrordrdc]
+application-id='acrordrdc_acrordrdc.desktop'
 
 [org/gnome/desktop/notifications/application/apport-gtk]
 application-id='apport-gtk.desktop'
+
+[org/gnome/desktop/notifications/application/calibre-gui]
+application-id='calibre-gui.desktop'
 
 [org/gnome/desktop/notifications/application/cheese-cheese]
 application-id='cheese_cheese.desktop'
 
 [org/gnome/desktop/notifications/application/code-code]
 application-id='code_code.desktop'
+
+[org/gnome/desktop/notifications/application/com-anthropic-claude]
+application-id='com.anthropic.Claude.desktop'
+
+[org/gnome/desktop/notifications/application/com-stremio-stremio]
+application-id='com.stremio.Stremio.desktop'
 
 [org/gnome/desktop/notifications/application/dbeaver-ce-dbeaver-ce]
 application-id='dbeaver-ce_dbeaver-ce.desktop'
@@ -228,14 +243,26 @@ application-id='firefox_firefox.desktop'
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
 
+[org/gnome/desktop/notifications/application/libreoffice-draw]
+application-id='libreoffice-draw.desktop'
+
+[org/gnome/desktop/notifications/application/obsidian-obsidian]
+application-id='obsidian_obsidian.desktop'
+
 [org/gnome/desktop/notifications/application/org-gnome-characters]
 application-id='org.gnome.Characters.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-clocks]
+application-id='org.gnome.clocks.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-dejadup]
 application-id='org.gnome.DejaDup.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-evolution-alarm-notify]
 application-id='org.gnome.Evolution-alarm-notify.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-extensions]
+application-id='org.gnome.Extensions.desktop'
 
 [org/gnome/desktop/notifications/application/org-gnome-goa-daemon]
 application-id='org.gnome.goa-daemon.desktop'
@@ -267,6 +294,9 @@ application-id='org.gnome.TextEditor.desktop'
 [org/gnome/desktop/notifications/application/org-qbittorrent-qbittorrent]
 application-id='org.qbittorrent.qBittorrent.desktop'
 
+[org/gnome/desktop/notifications/application/proton-vpn-proton-vpn]
+application-id='proton-vpn_proton-vpn.desktop'
+
 [org/gnome/desktop/notifications/application/snapd-desktop-integration-snapd-desktop-integration]
 application-id='snapd-desktop-integration_snapd-desktop-integration.desktop'
 
@@ -278,6 +308,9 @@ application-id='update-manager.desktop'
 
 [org/gnome/desktop/notifications/application/vlc]
 application-id='vlc.desktop'
+
+[org/gnome/desktop/notifications/application/wine-programs-supremapoker-supremapoker]
+application-id='wine-Programs-SupremaPoker-SupremaPoker.desktop'
 
 [org/gnome/desktop/peripherals/keyboard]
 numlock-state=true
@@ -298,9 +331,12 @@ daily-limit-seconds=uint32 28800
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/ubuntu-wallpaper-d.png'
-primary-color='#2c001e'
-secondary-color='#2c001e'
+picture-uri='file:///usr/share/backgrounds/osselo-Ask_a_friend.jpg'
+primary-color='#000000000000'
+secondary-color='#000000000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=false
@@ -396,10 +432,19 @@ sizing-mode='free'
 text-color='blue'
 window-height=1048
 window-maximized=true
-zoom=0.92764026845637559
+zoom=0.9941275167785234
+
+[org/gnome/portal/filechooser/code_code]
+last-folder-path='/home/maion/Desktop/JuliaAlgs'
+
+[org/gnome/portal/filechooser/com.anthropic.Claude]
+last-folder-path='/home/maion'
 
 [org/gnome/portal/filechooser/firefox_firefox]
-last-folder-path='/home/maion/Desktop'
+last-folder-path='/home/maion'
+
+[org/gnome/portal/filechooser/obsidian_obsidian]
+last-folder-path='/home/maion/Desktop/docs-smtr-io'
 
 [org/gnome/portal/filechooser/org.gnome.Nautilus]
 last-folder-path='/home/maion/Desktop'
@@ -417,17 +462,23 @@ last-folder-path='/home/bruno/Downloads'
 last-folder-path='/home/maion/Desktop'
 
 [org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
 night-light-schedule-automatic=false
+night-light-schedule-from=6.0
+night-light-temperature=uint32 3700
 
 [org/gnome/settings-daemon/plugins/power]
+idle-dim=false
+power-saver-profile-on-low-battery=false
 sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.Ptyxis.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <8>}>, 'kolourpaint_kolourpaint.desktop': <{'position': <9>}>, 'postman_postman.desktop': <{'position': <10>}>, 'R.desktop': <{'position': <11>}>, 'org.gnome.Calendar.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'htop.desktop': <{'position': <14>}>, 'gnome-language-selector.desktop': <{'position': <15>}>, 'libreoffice-startcenter.desktop': <{'position': <16>}>, 'libreoffice-base.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>, 'simple-scan.desktop': <{'position': <19>}>, 'org.gnome.Showtime.desktop': <{'position': <20>}>, 'org.gnome.Snapshot.desktop': <{'position': <21>}>, 'org.remmina.Remmina.desktop': <{'position': <22>}>, 'org.gnome.Shotwell.desktop': <{'position': <23>}>, 'usb-creator-gtk.desktop': <{'position': <24>}>, 'transmission-gtk.desktop': <{'position': <25>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <26>}>, 'vlc.desktop': <{'position': <27>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'org.gnome.Papers.desktop': <{'position': <4>}>, 'org.gnome.font-viewer.desktop': <{'position': <5>}>, 'org.gnome.Logs.desktop': <{'position': <6>}>, 'org.gnome.Sysprof.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'snap-store_snap-store.desktop': <{'position': <9>}>, 'org.gnome.Yelp.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>, 'vim.desktop': <{'position': <13>}>, 'code_code.desktop': <{'position': <14>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <15>}>, 'thunderbird_thunderbird.desktop': <{'position': <16>}>, 'Bully Scholarship Edition.desktop': <{'position': <17>}>, 'calibre-gui.desktop': <{'position': <18>}>, 'dbeaver-ce_dbeaver-ce.desktop': <{'position': <19>}>, 'calibre-ebook-edit.desktop': <{'position': <20>}>, 'calibre-ebook-viewer.desktop': <{'position': <21>}>, 'groovyConsole.desktop': <{'position': <22>}>, 'idle-python3.14.desktop': <{'position': <23>}>, 'jabref.desktop': <{'position': <24>}>, 'julia_julia-docs.desktop': <{'position': <25>}>, 'calibre-lrfviewer.desktop': <{'position': <26>}>, 'obsidian_md.obsidian.Obsidian.desktop': <{'position': <27>}>, 'proton-vpn_proton-vpn.desktop': <{'position': <28>}>, 'steam.desktop': <{'position': <29>}>, 'info.desktop': <{'position': <30>}>, 'julia_julia.desktop': <{'position': <31>}>, 'cheese_cheese.desktop': <{'position': <32>}>, 'org.gnome.Software.desktop': <{'position': <33>}>, 'spotify_spotify.desktop': <{'position': <34>}>}]
+app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.Ptyxis.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <8>}>, 'kolourpaint_kolourpaint.desktop': <{'position': <9>}>, 'postman_postman.desktop': <{'position': <10>}>, 'R.desktop': <{'position': <11>}>, 'org.gnome.Calendar.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'htop.desktop': <{'position': <14>}>, 'gnome-language-selector.desktop': <{'position': <15>}>, 'libreoffice-startcenter.desktop': <{'position': <16>}>, 'libreoffice-base.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>, 'simple-scan.desktop': <{'position': <19>}>, 'org.gnome.Showtime.desktop': <{'position': <20>}>, 'org.gnome.Snapshot.desktop': <{'position': <21>}>, 'org.remmina.Remmina.desktop': <{'position': <22>}>, 'org.gnome.Shotwell.desktop': <{'position': <23>}>, 'usb-creator-gtk.desktop': <{'position': <24>}>, 'transmission-gtk.desktop': <{'position': <25>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <26>}>, 'vlc.desktop': <{'position': <27>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'org.gnome.Papers.desktop': <{'position': <4>}>, 'org.gnome.font-viewer.desktop': <{'position': <5>}>, 'org.gnome.Logs.desktop': <{'position': <6>}>, 'org.gnome.Sysprof.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'snap-store_snap-store.desktop': <{'position': <9>}>, 'org.gnome.Yelp.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>, 'vim.desktop': <{'position': <13>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <14>}>, 'thunderbird_thunderbird.desktop': <{'position': <15>}>, 'Bully Scholarship Edition.desktop': <{'position': <16>}>, 'calibre-gui.desktop': <{'position': <17>}>, 'dbeaver-ce_dbeaver-ce.desktop': <{'position': <18>}>, 'calibre-ebook-edit.desktop': <{'position': <19>}>, 'calibre-ebook-viewer.desktop': <{'position': <20>}>, 'groovyConsole.desktop': <{'position': <21>}>, 'idle-python3.14.desktop': <{'position': <22>}>, 'jabref.desktop': <{'position': <23>}>, 'calibre-lrfviewer.desktop': <{'position': <24>}>, 'proton-vpn_proton-vpn.desktop': <{'position': <25>}>, 'steam.desktop': <{'position': <26>}>, 'com.anthropic.Claude.desktop': <{'position': <27>}>, 'info.desktop': <{'position': <28>}>, 'cheese_cheese.desktop': <{'position': <29>}>, 'wine-Programs-SupremaPoker-Desinstalar o SupremaPoker.desktop': <{'position': <30>}>, 'org.gnome.Software.desktop': <{'position': <31>}>, 'acrordrdc_acrordrdc.desktop': <{'position': <32>}>, 'RetroArch.desktop': <{'position': <33>}>, 'wine-Programs-SupremaPoker-SupremaPoker.desktop': <{'position': <34>}>, 'winetricks.desktop': <{'position': <35>}>, 'fastpotify.desktop': <{'position': <36>}>}]
 disabled-extensions=@as []
 enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'pano@elhan.io']
-favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'fastpotify.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'code_code.desktop', 'spotify_spotify.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
@@ -458,9 +509,9 @@ tiling-popup-all-workspace=true
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1788382150
-flatpak-purge-timestamp=int64 1788309321
-update-notification-timestamp=int64 1788385949
+check-timestamp=int64 1790695862
+flatpak-purge-timestamp=int64 1790731791
+update-notification-timestamp=int64 1790466462
 
 [org/gnome/system/location]
 enabled=false
@@ -609,7 +660,7 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(26, 23)
+window-position=(345, 49)
 window-size=(1231, 968)
 
 [portal/filechooser/snap.firefox]
