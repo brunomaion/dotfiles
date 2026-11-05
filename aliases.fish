@@ -1,5 +1,5 @@
 #CAT
-alias -s tokengit="cat ~/Desktop/dotfiles/tokengit.txt | xclip -selection clipboard"
+alias -s tokengit="senha github"
 
 #DIR
 alias -s cls="clear"
@@ -27,3 +27,17 @@ alias -s textinit='gnome-text-editor $HOME/Desktop/dotfiles/init.sh'
 alias -s textalias='gnome-text-editor $HOME/Desktop/dotfiles/aliases.fish'
 
 alias -s textsoftware='gnome-text-editor $HOME/Desktop/dotfiles/softwares.sh'
+
+#VM UTFPR
+alias -s killvpn="sudo pkill openfortivpn; sudo pkill -CONT openfortivpn"
+alias -s killtunel="pkill -f '^ssh -N lapse2-tunel'; pkill -CONT -f '^ssh -N lapse2-tunel'"
+alias -s pstunel="ss -tlnp | grep -E ':(15173|8080)\b'"
+alias -s vpnutfpr="sudo openfortivpn -c ~/.config/openfortivpn/config"
+alias -s vmutfpr="ssh lapse2"
+alias -s tunelutfpr="ssh -N lapse2-tunel"
+alias -s senhavmutfpr="senha vmutfpr"
+alias -s senhavpnutfpr="senha vpnutfpr"
+
+
+#SSH
+alias -s rorqual="ssh rorqual"

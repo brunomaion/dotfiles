@@ -19,7 +19,7 @@ sudo -v ; curl https://rclone.org/install.sh | sudo bash
 echo "Carregando backups"
 
 
-echo "" >> $HOME/dotfiles/tokengit.txt
+touch $HOME/Desktop/dotfiles/.env && chmod 600 $HOME/Desktop/dotfiles/.env
 mkdir $HOME/GoogleDrive
 
 
