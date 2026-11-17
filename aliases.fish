@@ -38,6 +38,11 @@ alias -s tunelutfpr="ssh -N lapse2-tunel"
 alias -s senhavmutfpr="senha vmutfpr"
 alias -s senhavpnutfpr="senha vpnutfpr"
 
+#VPN SISMETRO (WireGuard, /etc/wireguard/sismetro.conf)
+alias -s vpnsismetro="sudo wg-quick up sismetro"
+alias -s killvpnsismetro="sudo wg-quick down sismetro"
+alias -s statusvpnsismetro="sudo wg"
+
 
 #SSH
 alias -s rorqual="ssh rorqual"
