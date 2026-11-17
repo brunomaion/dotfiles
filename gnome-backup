@@ -1,10 +1,10 @@
 [apps/update-manager]
 first-run=false
-launch-count=4
-launch-time=int64 1790667537
+launch-count=5
+launch-time=int64 1794411938
 
 [com/ubuntu/update-notifier]
-release-check-time=uint32 1790537736
+release-check-time=uint32 1794230352
 
 [control-center]
 last-panel='sound'
@@ -72,19 +72,24 @@ maximized=false
 
 [net/nokyan/Resources]
 is-maximized=false
-last-viewed-page='memory'
+last-viewed-page='processes'
+processes-sort-by=uint32 3
+processes-sort-by-ascending=false
 window-height=900
 window-width=1024
 
 [org/gnome/Ptyxis]
 cursor-blink-mode='system'
 cursor-shape='ibeam'
+default-columns=uint32 110
 default-profile-uuid='9b95a909063e2f9bac05d3746a54f743'
+default-rows=uint32 30
 interface-style='dark'
 profile-uuids=['9b95a909063e2f9bac05d3746a54f743']
+restore-window-size=false
 use-system-font=true
 visual-bell=true
-window-size=(uint32 137, uint32 26)
+window-size=(uint32 173, uint32 45)
 
 [org/gnome/Ptyxis/Profiles/9b95a909063e2f9bac05d3746a54f743]
 palette='Vs Code'
@@ -99,7 +104,7 @@ window-height=640
 window-width=800
 
 [org/gnome/TextEditor]
-last-save-directory='file:///home/maion/Desktop'
+last-save-directory='file:///home/maion'
 
 [org/gnome/calculator]
 accuracy=9
@@ -135,13 +140,13 @@ panel-id='timer'
 size=(870, 690)
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='system'
 window-state=(980, 640, false)
 
 [org/gnome/deja-dup]
 backend='google'
 periodic-timestamp='2026-08-15T01:16:56.236317-03'
-prompt-check='2026-09-14T10:29:44.257043-04'
+prompt-check='2026-11-15T11:28:55.095123-05'
 
 [org/gnome/desktop/app-folders]
 folder-children=['Utilities', 'YaST', 'Pardus']
@@ -194,7 +199,7 @@ xkb-options=@as []
 
 [org/gnome/desktop/interface]
 accent-color='purple'
-clock-format='12h'
+clock-format='24h'
 color-scheme='prefer-dark'
 cursor-theme='DMZ-White'
 font-hinting='none'
@@ -205,7 +210,7 @@ monospace-font-name='FiraCode Nerd Font weight=450 13'
 toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
-application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings', 'org-gnome-texteditor', 'org-gnome-dejadup', 'org-gnome-ptyxis', 'dbeaver-ce-dbeaver-ce', 'code-code', 'steam', 'fastpotify', 'org-gnome-showtime', 'vlc', 'org-qbittorrent-qbittorrent', 'org-gnome-software', 'acrordrdc-acrordrdc', 'proton-vpn-proton-vpn', 'wine-programs-supremapoker-supremapoker', 'com-anthropic-claude', 'calibre-gui', 'libreoffice-draw', 'org-gnome-clocks', 'obsidian-obsidian', 'com-stremio-stremio', 'org-gnome-extensions']
+application-children=['firefox-firefox', 'org-gnome-terminal', 'org-gnome-terminal-preferences', 'update-manager', 'snapd-desktop-integration-snapd-desktop-integration', 'gnome-power-panel', 'org-gnome-characters', 'org-gnome-goa-daemon', 'discord-discord', 'org-gnome-nautilus', 'cheese-cheese', 'org-gnome-evolution-alarm-notify', 'org-gnome-settings', 'org-gnome-texteditor', 'org-gnome-dejadup', 'org-gnome-ptyxis', 'dbeaver-ce-dbeaver-ce', 'code-code', 'steam', 'fastpotify', 'org-gnome-showtime', 'vlc', 'org-qbittorrent-qbittorrent', 'org-gnome-software', 'acrordrdc-acrordrdc', 'proton-vpn-proton-vpn', 'wine-programs-supremapoker-supremapoker', 'com-anthropic-claude', 'calibre-gui', 'libreoffice-draw', 'org-gnome-clocks', 'obsidian-obsidian', 'com-stremio-stremio', 'org-gnome-extensions', 'firmware-updater-firmware-updater']
 
 [org/gnome/desktop/notifications/application/acrordrdc-acrordrdc]
 application-id='acrordrdc_acrordrdc.desktop'
@@ -239,6 +244,9 @@ application-id='fastpotify.desktop'
 
 [org/gnome/desktop/notifications/application/firefox-firefox]
 application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/firmware-updater-firmware-updater]
+application-id='firmware-updater_firmware-updater.desktop'
 
 [org/gnome/desktop/notifications/application/gnome-power-panel]
 application-id='gnome-power-panel.desktop'
@@ -388,7 +396,7 @@ migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [org/gnome/nautilus/window-state]
-initial-size=(890, 550)
+initial-size=(1920, 1048)
 initial-size-file-chooser=(890, 550)
 maximized=true
 
@@ -435,13 +443,13 @@ window-maximized=true
 zoom=0.9941275167785234
 
 [org/gnome/portal/filechooser/code_code]
-last-folder-path='/home/maion/Desktop/JuliaAlgs'
+last-folder-path='/home/maion/Desktop'
 
 [org/gnome/portal/filechooser/com.anthropic.Claude]
-last-folder-path='/home/maion'
+last-folder-path='/home/maion/Desktop'
 
 [org/gnome/portal/filechooser/firefox_firefox]
-last-folder-path='/home/maion'
+last-folder-path='/home/maion/Pictures/Screenshots'
 
 [org/gnome/portal/filechooser/obsidian_obsidian]
 last-folder-path='/home/maion/Desktop/docs-smtr-io'
@@ -453,13 +461,13 @@ last-folder-path='/home/maion/Desktop'
 last-folder-path='/home/bruno/Pictures/Screenshots'
 
 [org/gnome/portal/filechooser/org.gnome.TextEditor]
-last-folder-path='/home/maion/Desktop'
+last-folder-path='/home/maion'
 
 [org/gnome/portal/filechooser/snap.firefox]
 last-folder-path='/home/bruno/Downloads'
 
 [org/gnome/portal/filechooser/spotify_spotify]
-last-folder-path='/home/maion/Desktop'
+last-folder-path='/home/maion'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=false
@@ -475,10 +483,10 @@ sleep-inactive-ac-type='nothing'
 sleep-inactive-battery-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.Ptyxis.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <8>}>, 'kolourpaint_kolourpaint.desktop': <{'position': <9>}>, 'postman_postman.desktop': <{'position': <10>}>, 'R.desktop': <{'position': <11>}>, 'org.gnome.Calendar.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'htop.desktop': <{'position': <14>}>, 'gnome-language-selector.desktop': <{'position': <15>}>, 'libreoffice-startcenter.desktop': <{'position': <16>}>, 'libreoffice-base.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>, 'simple-scan.desktop': <{'position': <19>}>, 'org.gnome.Showtime.desktop': <{'position': <20>}>, 'org.gnome.Snapshot.desktop': <{'position': <21>}>, 'org.remmina.Remmina.desktop': <{'position': <22>}>, 'org.gnome.Shotwell.desktop': <{'position': <23>}>, 'usb-creator-gtk.desktop': <{'position': <24>}>, 'transmission-gtk.desktop': <{'position': <25>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <26>}>, 'vlc.desktop': <{'position': <27>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'org.gnome.Papers.desktop': <{'position': <4>}>, 'org.gnome.font-viewer.desktop': <{'position': <5>}>, 'org.gnome.Logs.desktop': <{'position': <6>}>, 'org.gnome.Sysprof.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'snap-store_snap-store.desktop': <{'position': <9>}>, 'org.gnome.Yelp.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>, 'vim.desktop': <{'position': <13>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <14>}>, 'thunderbird_thunderbird.desktop': <{'position': <15>}>, 'Bully Scholarship Edition.desktop': <{'position': <16>}>, 'calibre-gui.desktop': <{'position': <17>}>, 'dbeaver-ce_dbeaver-ce.desktop': <{'position': <18>}>, 'calibre-ebook-edit.desktop': <{'position': <19>}>, 'calibre-ebook-viewer.desktop': <{'position': <20>}>, 'groovyConsole.desktop': <{'position': <21>}>, 'idle-python3.14.desktop': <{'position': <22>}>, 'jabref.desktop': <{'position': <23>}>, 'calibre-lrfviewer.desktop': <{'position': <24>}>, 'proton-vpn_proton-vpn.desktop': <{'position': <25>}>, 'steam.desktop': <{'position': <26>}>, 'com.anthropic.Claude.desktop': <{'position': <27>}>, 'info.desktop': <{'position': <28>}>, 'cheese_cheese.desktop': <{'position': <29>}>, 'wine-Programs-SupremaPoker-Desinstalar o SupremaPoker.desktop': <{'position': <30>}>, 'org.gnome.Software.desktop': <{'position': <31>}>, 'acrordrdc_acrordrdc.desktop': <{'position': <32>}>, 'RetroArch.desktop': <{'position': <33>}>, 'wine-Programs-SupremaPoker-SupremaPoker.desktop': <{'position': <34>}>, 'winetricks.desktop': <{'position': <35>}>, 'fastpotify.desktop': <{'position': <36>}>}]
+app-picker-layout=[{'org.gnome.clocks.desktop': <{'position': <0>}>, 'net.nokyan.Resources.desktop': <{'position': <1>}>, 'org.gnome.Calculator.desktop': <{'position': <2>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <3>}>, 'org.gnome.Settings.desktop': <{'position': <4>}>, 'org.gnome.Ptyxis.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'Utilities': <{'position': <7>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <8>}>, 'kolourpaint_kolourpaint.desktop': <{'position': <9>}>, 'postman_postman.desktop': <{'position': <10>}>, 'R.desktop': <{'position': <11>}>, 'org.gnome.Calendar.desktop': <{'position': <12>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <13>}>, 'htop.desktop': <{'position': <14>}>, 'gnome-language-selector.desktop': <{'position': <15>}>, 'libreoffice-startcenter.desktop': <{'position': <16>}>, 'libreoffice-base.desktop': <{'position': <17>}>, 'libreoffice-calc.desktop': <{'position': <18>}>, 'simple-scan.desktop': <{'position': <19>}>, 'org.gnome.Showtime.desktop': <{'position': <20>}>, 'org.gnome.Snapshot.desktop': <{'position': <21>}>, 'org.remmina.Remmina.desktop': <{'position': <22>}>, 'org.gnome.Shotwell.desktop': <{'position': <23>}>, 'usb-creator-gtk.desktop': <{'position': <24>}>, 'transmission-gtk.desktop': <{'position': <25>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <26>}>, 'vlc.desktop': <{'position': <27>}>}, {'libreoffice-draw.desktop': <{'position': <0>}>, 'libreoffice-impress.desktop': <{'position': <1>}>, 'libreoffice-math.desktop': <{'position': <2>}>, 'nvim.desktop': <{'position': <3>}>, 'org.gnome.Papers.desktop': <{'position': <4>}>, 'org.gnome.font-viewer.desktop': <{'position': <5>}>, 'org.gnome.Logs.desktop': <{'position': <6>}>, 'org.gnome.Sysprof.desktop': <{'position': <7>}>, 'update-manager.desktop': <{'position': <8>}>, 'snap-store_snap-store.desktop': <{'position': <9>}>, 'org.gnome.Yelp.desktop': <{'position': <10>}>, 'libreoffice-writer.desktop': <{'position': <11>}>, 'org.gnome.TextEditor.desktop': <{'position': <12>}>, 'vim.desktop': <{'position': <13>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <14>}>, 'thunderbird_thunderbird.desktop': <{'position': <15>}>, 'Bully Scholarship Edition.desktop': <{'position': <16>}>, 'calibre-gui.desktop': <{'position': <17>}>, 'dbeaver-ce_dbeaver-ce.desktop': <{'position': <18>}>, 'calibre-ebook-edit.desktop': <{'position': <19>}>, 'calibre-ebook-viewer.desktop': <{'position': <20>}>, 'groovyConsole.desktop': <{'position': <21>}>, 'idle-python3.14.desktop': <{'position': <22>}>, 'jabref.desktop': <{'position': <23>}>, 'calibre-lrfviewer.desktop': <{'position': <24>}>, 'proton-vpn_proton-vpn.desktop': <{'position': <25>}>, 'steam.desktop': <{'position': <26>}>, 'com.anthropic.Claude.desktop': <{'position': <27>}>, 'info.desktop': <{'position': <28>}>, 'cheese_cheese.desktop': <{'position': <29>}>, 'wine-Programs-SupremaPoker-Desinstalar o SupremaPoker.desktop': <{'position': <30>}>, 'org.gnome.Software.desktop': <{'position': <31>}>, 'acrordrdc_acrordrdc.desktop': <{'position': <32>}>, 'RetroArch.desktop': <{'position': <33>}>, 'wine-Programs-SupremaPoker-SupremaPoker.desktop': <{'position': <34>}>, 'winetricks.desktop': <{'position': <35>}>, 'fastpotify.desktop': <{'position': <36>}>, 'com.stremio.Stremio.desktop': <{'position': <37>}>, 'mpv.desktop': <{'position': <38>}>}, {'org.gnome.Extensions.desktop': <{'position': <0>}>}]
 disabled-extensions=@as []
 enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com', 'pano@elhan.io']
-favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'code_code.desktop', 'spotify_spotify.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox_firefox.desktop', 'obsidian_obsidian.desktop', 'code_code.desktop', 'discord_discord.desktop', 'spotify_spotify.desktop']
 last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='46.0'
 
@@ -508,10 +516,30 @@ tiling-popup-all-workspace=true
 [org/gnome/shell/world-clocks]
 locations=@av []
 
+[org/gnome/shotwell/preferences/ui]
+display-basic-properties=true
+display-extended-properties=false
+display-photo-comments=false
+display-photo-ratings=true
+display-photo-tags=true
+display-photo-titles=false
+display-search-bar=false
+display-sidebar=true
+events-sort-ascending=false
+library-photos-sort-ascending=false
+library-photos-sort-by=2
+show-welcome-dialog=false
+sidebar-position=180
+
+[org/gnome/shotwell/preferences/window]
+library-height=768
+library-maximize=false
+library-width=1024
+
 [org/gnome/software]
-check-timestamp=int64 1790695862
-flatpak-purge-timestamp=int64 1790731791
-update-notification-timestamp=int64 1790466462
+check-timestamp=int64 1794919791
+flatpak-purge-timestamp=int64 1794880112
+update-notification-timestamp=int64 1794830562
 
 [org/gnome/system/location]
 enabled=false
@@ -645,11 +673,11 @@ view-type='list'
 window-size=(819, 372)
 
 [org/gtk/settings/color-chooser]
-custom-colors=[(0.59666666666666668, 0.59666666666666668, 0.59666666666666668, 1.0), (0.62745098039215685, 0.62745098039215685, 0.62745098039215685, 1.0), (0.11372549019607843, 0.14901960784313725, 0.18431372549019609, 1.0)]
+custom-colors=[(0.47058823529411764, 0.47058823529411764, 0.47058823529411764, 1.0), (0.59666666666666668, 0.59666666666666668, 0.59666666666666668, 1.0), (0.62745098039215685, 0.62745098039215685, 0.62745098039215685, 1.0), (0.11372549019607843, 0.14901960784313725, 0.18431372549019609, 1.0)]
 selected-color=(true, 1.0, 1.0, 1.0, 1.0)
 
 [org/gtk/settings/file-chooser]
-clock-format='12h'
+clock-format='24h'
 date-format='regular'
 location-mode='path-bar'
 show-hidden=false
@@ -660,7 +688,7 @@ sort-column='name'
 sort-directories-first=true
 sort-order='ascending'
 type-format='category'
-window-position=(345, 49)
+window-position=(26, 23)
 window-size=(1231, 968)
 
 [portal/filechooser/snap.firefox]
